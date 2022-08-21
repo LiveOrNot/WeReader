@@ -8,19 +8,32 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A059493E-0FAD-4C3D-8C5F-D4D0BAE2EAF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{8BAA8211-C125-4C2B-9825-EEF4B52AC2D2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{15D193B4-56CE-4879-9AF1-92BD5C9BB22C}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		build.nsi = build.nsi
+		dotNetFx40_Full_x86_x64.exe = dotNetFx40_Full_x86_x64.exe
+		nuget.config = nuget.config
+		nuget.exe = nuget.exe
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9B8C3E29-C7FB-4D33-96FD-C30CCB9622A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B8C3E29-C7FB-4D33-96FD-C30CCB9622A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B8C3E29-C7FB-4D33-96FD-C30CCB9622A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B8C3E29-C7FB-4D33-96FD-C30CCB9622A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8C3E29-C7FB-4D33-96FD-C30CCB9622A1}.Debug|x86.ActiveCfg = Debug|x86
+		{9B8C3E29-C7FB-4D33-96FD-C30CCB9622A1}.Debug|x86.Build.0 = Debug|x86
+		{9B8C3E29-C7FB-4D33-96FD-C30CCB9622A1}.Release|x86.ActiveCfg = Release|x86
+		{9B8C3E29-C7FB-4D33-96FD-C30CCB9622A1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
